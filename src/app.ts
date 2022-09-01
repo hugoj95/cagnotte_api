@@ -6,7 +6,7 @@ const port = config.server.port; // default port to listen
 
 // define a route handler for the default home page
 app.get( "/", ( req, res ) => {
-    res.send( "Hello hugo!" );
+    res.send( "Hello hugo! anus" );
 } );
 
 // start the Express server
