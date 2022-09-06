@@ -17,5 +17,5 @@ app.listen( port, () => {
 
 const http = require("http");
 setInterval(function() {
-    http.get("http://<your app name>.herokuapp.com");
-}, 300000); // every 5 minutes (300000) pour empécher l'app de dormir
+    http.get("http://cagnotte-api.herokuapp.com");
+}, 300000); // every 5 minutes (300000) pour empécher l'app de dormir sur heroku
